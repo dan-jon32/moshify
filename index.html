@@ -24,7 +24,7 @@
   <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Moshify" class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
           <use href="./images/sprite.svg#menu"></use>
         </svg>
@@ -69,6 +69,7 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter domain name here.."
@@ -199,7 +200,7 @@
           </p>
           <a href="#" class="link-arrow">Learn more</a>
         </div>
-        <picture>
+        <picture data-aos="zoom-in-up">
           <source
             type="image/webp"
             srcset="images/fast.webp 1x, images/fast@2x.webp 2x" />
@@ -451,7 +452,7 @@
         <section class="collapsible footer__section">
           <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domains</h2>
-            <svg class="icon icon--primary collapsible__chevron">
+            <svg class="icon icon--white collapsible__chevron">
               <use href="./images/sprite.svg#line"></use>
             </svg>
           </div>
